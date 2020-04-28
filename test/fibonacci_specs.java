@@ -42,4 +42,12 @@ public class fibonacci_specs {
 
         Assert.assertEquals(144, result);
     }
+
+    @Test
+    public void should_return_12586269025L_when_input_is_50() {
+        var fibonacci = new Fibonacci();
+        var result = fibonacci.Calculate(50);
+
+        Assert.assertEquals(12586269025L, result);
+    }
 }
