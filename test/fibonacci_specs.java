@@ -50,4 +50,16 @@ public class fibonacci_specs {
 
         Assert.assertEquals(12586269025L, result);
     }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void should_return_error_message_when_input_is_negative_number() {
+        var fibonacci = new Fibonacci();
+        fibonacci.Calculate(-1);
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void should_return_error_message_when_input_is_51() {
+        var fibonacci = new Fibonacci();
+        fibonacci.Calculate(51);
+    }
 }
