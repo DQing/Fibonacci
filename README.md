@@ -16,6 +16,7 @@ Sample: 1 1 2 3 5 8 13 21 34 55 89 144 … 12586269025L(50)
 - Given 1 When 经过斐波那契数计算 Then 打印 1 
 - Given 2 When 经过斐波那契数计算 Then 打印 1
 - Given 3 When 经过斐波那契数计算 Then 打印 2
+- Given 4 When 经过斐波那契数计算 Then 打印 3
 - Given 12 When 经过斐波那契数计算 Then 打印 144
 - Given 50 When 经过斐波那契数计算 Then 打印 12586269025L
 - Given -1 When 经过斐波那契数计算 Then 打印 "请输入 1～50 整数"
